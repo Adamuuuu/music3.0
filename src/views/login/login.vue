@@ -1,7 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="container">
-    <p>请扫描二维码登录</p>
+    <!-- <p></p> -->
+    <h2>请扫描二维码登录</h2>
     <div class="img">
       <img :src="qrimg" alt="" style="width: 200px; height: 200px" />
     </div>
@@ -50,10 +51,15 @@ onMounted(() => {
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-image: url(@/assets/images/bg2.jpg);
-  background-size: cover;
+  // background-image: url(@/assets/images/bg2.jpg);
+  background: rgba(0, 0, 0, 0.3) url("@/assets/images/bg2.jpg") center/cover
+    no-repeat;
+  // background-size: cover;
   & img {
     margin-top: 20px;
   }
+}
+h2 {
+  color: aqua;
 }
 </style>
