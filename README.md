@@ -1,7 +1,12 @@
 # 锦鲤音乐APP 3.0
 
 本项目是基于Vue3、Vite、TypeScript等技术栈开发的一款移动端音乐播放器应用。该应用具有用户二维码登录、退出登录，音乐播放、暂停、上切换以及歌词滚动等基本功能，完成了搜索并播放音乐、推荐歌单、查看排行榜等高级功能。
-接口数据来源https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi
+
+接口数据来源
+
+```text
+https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi
+```
 
 ## 技术栈
 
@@ -56,12 +61,24 @@
 4. 在浏览器中打开`http://localhost:5173`，即可查看项目运行效果。
 
 ## 部分截图展示
+
 ### 首页
-![首页.png](https://s2.loli.net/2023/03/29/PkXB8iRCnIFOLSZ.png)
+
+- ![avatar](/项目图片/首页.png)
+
 ### 搜索
-![search.png](https://s2.loli.net/2023/03/29/zpx8ROEHFZs5ate.png)
-### 歌单
-![歌单.png](https://s2.loli.net/2023/03/29/PAoqze7kjLMd3pO.png)
+
+#### 搜索详情
+
+![avatar](/项目图片/搜索详情.png)
+
+#### 搜索结果
+
+![avatar](/项目图片/搜索结果.png)
+
+### 歌曲播放详情
+
+![avatar](/项目图片/歌曲播放详情.png)
 
 
 
@@ -70,5 +87,4 @@
 - 作者：Adam
 - 邮箱：xiaoyi2670321@163.com
 - 博客：https://blog.csdn.net/m0_59443371
-
 
